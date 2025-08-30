@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database file (don’t upload user data)
+*.db
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+.env/
