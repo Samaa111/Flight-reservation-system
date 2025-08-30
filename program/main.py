@@ -15,7 +15,7 @@ root = tk.Tk()
 root.title('Flight Reservation System') 
 root.configure(bg= "#f8f9fa")
 root.geometry('700x500')
-icon = tk.PhotoImage(file='airplane.png')
+icon = tk.PhotoImage(file='program/airplane.png')
 root.iconphoto(True , icon)
 
 # Create frames

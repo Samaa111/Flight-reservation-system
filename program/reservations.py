@@ -17,7 +17,7 @@ class ReservationsPage(tk.Frame):
             self.grid_columnconfigure(j, weight=1)
 
         # --- Title ---
-        self.icon = tk.PhotoImage(file='airplane.png')
+        self.icon = tk.PhotoImage(file='program/airplane.png')
         tk.Label(
             self, text='Your Reservations',
             font=('Helvetica', 18, 'bold'),

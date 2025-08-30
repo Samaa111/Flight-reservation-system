@@ -19,7 +19,7 @@ class BookingPage(tk.Frame):
 
 
     # Booking page
-        self.icon = tk.PhotoImage(file='airplane.png')
+        self.icon = tk.PhotoImage(file='program/airplane.png')
         tk.Label(self , text = 'Book your flight' ,
                 font=('Helvetica', 18 , 'bold') , fg = '#000080' , anchor= 'center' ,
                 image= self.icon , compound='left' 

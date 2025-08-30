@@ -14,7 +14,7 @@ class HomePage(tk.Frame):
             self.grid_columnconfigure(j, weight=1)
 
     # Homepage
-        self.icon = tk.PhotoImage(file='airplane.png')
+        self.icon = tk.PhotoImage(file='program/airplane.png')
         tk.Label(self , text = 'Welcome to our flight reservation system.' ,
                 font=('Helvetica', 18 , 'bold') , fg = '#000080' , anchor='center' ,
                 image= self.icon , compound='left' 
